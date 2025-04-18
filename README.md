@@ -2,8 +2,8 @@
 
 <p align="center">
   Multi-Agent Web3 and Blockchain Vulnerability Intelligence System powered by AI 🧠 With Conversational AI Copilot. Leveraging AI to enhance Web3 security analysis, research, and tooling.** 🛡️🔗🤖
-</p>
-This project uses a team of specialized AI agents working together within a React/Next.js application to proactively monitor, analyze, and mitigate security threats in the rapidly evolving Web3 and DeFi landscape.
+<p></p>
+This project uses a team of specialized AI agents working together within a React/Next.js application to proactively monitor, analyze, and mitigate security threats in the rapidly evolving Web3 and DeFi landscape.</p>
 
 ---
 
