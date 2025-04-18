@@ -1,5 +1,4 @@
-# Web3-Sentinel
-🛡️ Web3 Sentinel: AI-Powered DeFi Exploit Hunter 🚨
+# 🛡️ Web3 Sentinel: AI-Powered DeFi Exploit Hunter 🚨
 
 <p align="center">
   Multi-Agent Android Vulnerability Intelligence System powered by AI 🧠
