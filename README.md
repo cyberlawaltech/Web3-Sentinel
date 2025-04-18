@@ -1,69 +1,81 @@
 # 🛡️ Web3 Sentinel: AI-Powered DeFi Exploit Hunter 🚨
 
 <p align="center">
-  Multi-Agent Android Vulnerability Intelligence System powered by AI 🧠
+  Multi-Agent Web3 and Blockchain Vulnerability Intelligence System powered by AI 🧠 With Conversational AI Copilot.
 </p>
 
----
+# <img src="https://image.pollinations.ai/prompt/A%20gold%20police-style%20badge%20with%20'CYBER%20LAW%20TECH%202025'%20and%20scales%20of%20justice,%20encircled%20by%20a%20coiled%20ethernet%20cable%20with%20RJ45%20and%20USB%20connectors%20visible,%20on%20a%20dark%20background." alt="Cyber Law Tech 2025 Logo" width="100"> Cyber Law Tech 2025: 3-Agents-Web3-Security
 
-## 🚧 Project Overview
+**A multi-agent system leveraging AI to enhance Web3 security analysis, research, and tooling.** 🛡️🔗🤖
 
-**3-Agents-Android-Security** is a full-stack, AI-driven platform for identifying, analyzing, and addressing Android security threats.  
-Built with modularity in mind, this app uses a collection of intelligent agents to monitor, assess, and act on the latest Android vulnerabilities across the ecosystem.
-
----
-
-## 🤹‍♀️ Multi-Agent Architecture
-
-Powered by the **CrewAI** agent framework, this system includes:
-
-| Agent | Description |
-|-------|-------------|
-| 🧠 **LLM Agent** | AI-powered assistant using NLP for task management, automation, and deep security insight. |
-| 🕷️ **Scraper Agent** | Monitors Android blogs, CVE databases, social media, and forums for emerging threats. |
-| 🔍 **Analyzer Agent** | Breaks down exploits: attack vectors, affected modules, and threat impact. |
-| 📚 **Researcher Agent** | Collects, organizes, and curates Android security knowledge. |
-| 🛡️ **Solution Architect Agent** | Suggests fixes, code strategies, and mitigation techniques. |
-| 🧰 **Toolsmith Agent** | Discovers and recommends open-source tools for vulnerability detection. |
-| 👨‍💻 **Coder Agent** | Develops and deploys custom tools for analysis and defense. |
-| 🚀 **GitHub Manager Agent** | Automates publishing of findings, manages commits, and syncs reports. |
+This project uses a team of specialized AI agents working together within a React/Next.js application to proactively monitor, analyze, and mitigate security threats in the rapidly evolving Web3 and DeFi landscape.
 
 ---
 
-## 🛠️ Tech Stack
+## ✨ Core Features
 
-- **Frontend**: React (Next.js + App Router), Tailwind CSS, Framer Motion
-- **Backend**: Supabase (PostgreSQL + Auth), Google AI Studio (LLM APIs)
-- **Web Scraping**: [`Crawl4AI`](https://github.com) — LLM-friendly Android security scraper
-- **AI APIs**: Fireworks AI, Together API, Groq, HuggingFace, Mistral, OpenRouter
-- **Agent Framework**: [CrewAI](https://github.com/joaomdmoura/crewAI)
-- **Automation**: GitHub Actions, GitHub Pages for reports
-
----
-
-## 🎨 Design & UX
-
-- ✨ Animated logo entrance (inspired by [Guillaume Gouessan](https://guillaumegouessan.com))
-- 📱 Fully responsive for all devices
-- 🌫️ Subtle motion effects to enhance visuals
+*   🕵️ **Threat Research & Analysis:** Deep dives into blockchain and Web3 security vulnerabilities.
+*   🕸️ **Web Scraping:** Continuously monitors the web for the latest exploits and threats using `Crawl4AI`.
+*   📊 **Technical Breakdowns:** Detailed analysis of attack vectors, impacts, and affected components.
+*   💡 **Solution Architecting:** Suggests mitigation strategies and security improvements.
+*   🔧 **Tool Discovery & Curation:** Gathers and evaluates open-source security tools.
+*   💻 **Custom Tool Development:** Designs and implements bespoke security tools.
+*   📢 **Findings Publication:** Shares reports and insights via GitHub Pages.
 
 ---
 
-## 🧪 Security Features
+## 🤖 Meet the Agents (Powered by `Crewai`)
 
-- OAuth with **Auth0** 🔐
-- API key management for LLM & DB integrations
-- Automatic vulnerability DB refresh 🔄
+*   **🧠 LLM Assistant:** Your AI consultant! Provides feedback, automates tasks, manages agents, and explains findings using NLP (via Google AI Studio API, Fireworks AI, etc.).
+*   **📡 Scraper Agent:** Scours the web (blogs, news, social media) for new Web3/DeFi vulnerabilities.
+*   **🔬 Analyzer Agent:** Performs deep technical analysis of discovered exploits.
+*   **📚 Researcher/KM Agent:** Gathers, organizes, and curates blockchain security knowledge.
+*   **🏗️ Solution Architect Agent:** Proposes solutions and architectural improvements for security.
+*   **🛠️ Toolsmith Agent:** Finds and evaluates relevant open-source security tools.
+*   **⌨️ Coder Agent:** Designs, codes, and implements necessary tools and solutions.
+*   **🐙 GitHub Manager Agent:** Manages the project repo, commits code, and publishes findings online.
 
 ---
 
-## 🤝 Contributing
+## 🚀 Tech Stack Highlights
 
-We welcome contributions from Android security researchers, tool builders, and AI tinkerers!
+*   **Frontend:** React, Next.js (App Router), Tailwind CSS, Framer Motion
+*   **Backend & DB:** Supabase
+*   **AI/LLM:** Crewai Agent Framework, Google AI Studio API, OpenRouter, Groq, etc.
+*   **Web Scraping:** Crawl4AI
+*   **Authentication:** Auth0 (Planned)
+*   **Deployment:** Vercel (Frontend), GitHub Pages (Reports)
+*   **CI/CD:** GitHub Actions
 
-### 🧷 How to Get Started
+---
 
-1. Fork the repo 🔱
-2. Clone your fork  
-   ```bash
-   git clone https://github.com/your-username/3-agents-android-security.git
+## 💖 Contributing
+
+We welcome contributions from the community! Help us make the Web3 space safer.
+
+**Ways to Contribute:**
+
+*   🐞 Report bugs or suggest features by opening an **Issue**.
+*   ✨ Enhance existing agent capabilities.
+*   💡 Propose and develop new agents or features.
+*    Mprove documentation.
+*    Cntribute to tool development (Coder Agent tasks).
+*    Rfine the UI/UX.
+
+**Contribution Workflow:**
+
+1.  **Fork** the repository.
+2.  Create a new **branch** for your feature or bugfix: `git checkout -b feat/your-feature-name` or `git checkout -b fix/your-bug-fix`.
+3.  **Code** your changes. Make sure to follow project conventions.
+4.  **Test** your changes thoroughly.
+5.  **Commit** your changes with clear, descriptive messages: `git commit -m "feat: Add X functionality"` or `git commit -m "fix: Resolve Y issue"`.
+6.  **Push** your branch to your fork: `git push origin feat/your-feature-name`.
+7.  Open a **Pull Request (PR)** against the `main` branch of the original repository.
+8.  Clearly describe your changes in the PR description. Link any relevant issues.
+9.  Wait for code review and address any feedback.
+
+🙏 Thank you for your interest in contributing!
+
+---
+
+*This README focuses on contribution guidelines as requested. Hosting and detailed setup instructions are omitted.*
