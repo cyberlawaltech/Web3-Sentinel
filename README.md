@@ -1,13 +1,8 @@
 # 🛡️ Web3 Sentinel: AI-Powered DeFi Exploit Hunter 🚨
 
 <p align="center">
-  Multi-Agent Web3 and Blockchain Vulnerability Intelligence System powered by AI 🧠 With Conversational AI Copilot.
+  Multi-Agent Web3 and Blockchain Vulnerability Intelligence System powered by AI 🧠 With Conversational AI Copilot. Leveraging AI to enhance Web3 security analysis, research, and tooling.** 🛡️🔗🤖
 </p>
-
-# <img src="https://image.pollinations.ai/prompt/A%20gold%20police-style%20badge%20with%20'CYBER%20LAW%20TECH%202025'%20and%20scales%20of%20justice,%20encircled%20by%20a%20coiled%20ethernet%20cable%20with%20RJ45%20and%20USB%20connectors%20visible,%20on%20a%20dark%20background." alt="Cyber Law Tech 2025 Logo" width="100"> Cyber Law Tech 2025: 3-Agents-Web3-Security
-
-**A multi-agent system leveraging AI to enhance Web3 security analysis, research, and tooling.** 🛡️🔗🤖
-
 This project uses a team of specialized AI agents working together within a React/Next.js application to proactively monitor, analyze, and mitigate security threats in the rapidly evolving Web3 and DeFi landscape.
 
 ---
