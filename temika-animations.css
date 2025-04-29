@@ -1,0 +1,19 @@
+@keyframes ripple {
+  0% {
+    transform: scale(1);
+    background-color: theme("colors.gray.800");
+  }
+  50% {
+    transform: scale(1.1);
+    background-color: theme("colors.pink.500");
+    z-index: 10;
+  }
+  100% {
+    transform: scale(1);
+    background-color: theme("colors.gray.800");
+  }
+}
+
+.cell-ripple {
+  animation: ripple 0.5s ease-out;
+}
