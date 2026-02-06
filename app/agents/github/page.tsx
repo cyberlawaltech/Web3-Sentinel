@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { Github, GitPullRequest, GitBranch, Clock, BarChart, GitCommit } from "lucide-react"
 import Link from "next/link"
+import { InsightChart } from "@/components/dashboard/insight-chart"
 
 export default function GithubDashboardPage() {
   return (
@@ -137,11 +138,16 @@ export default function GithubDashboardPage() {
               <CardTitle className="text-lg text-emerald-400">Contribution Activity</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="flex items-center justify-center h-48">
-                <div className="text-center text-gray-500">
-                  <BarChart className="h-12 w-12 mx-auto mb-2 text-gray-400" />
-                  <p>Chart visualization would appear here</p>
-                </div>
+              <div className="h-40 sm:h-48">
+                <InsightChart
+                  data={[
+                    { name: "Code", value: 65, color: "#10B981" },
+                    { name: "Documentation", value: 20, color: "#3B82F6" },
+                    { name: "Issues", value: 10, color: "#F59E0B" },
+                    { name: "Other", value: 5, color: "#A78BFA" },
+                  ]}
+                  height={160}
+                />
               </div>
               <div className="space-y-2 mt-4">
                 <div className="flex justify-between items-center">

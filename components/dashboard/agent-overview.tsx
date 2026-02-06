@@ -47,12 +47,12 @@ export function AgentOverview() {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <h1 className="text-3xl font-bold text-white">Agent Overview</h1>
-        <div className="flex space-x-2">
+        <div className="flex flex-col sm:flex-row sm:space-x-2 space-y-2 sm:space-y-0 w-full">
           <Button
             onClick={() => {
               Object.keys(agentStates).forEach((agent) => startAgent(agent))
             }}
-            className="bg-emerald-600 hover:bg-emerald-700"
+            className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto"
           >
             Start All Agents
           </Button>
@@ -61,7 +61,7 @@ export function AgentOverview() {
             onClick={() => {
               Object.keys(agentStates).forEach((agent) => stopAgent(agent))
             }}
-            className="border-emerald-500 text-emerald-500 hover:bg-emerald-950"
+            className="border-emerald-500 text-emerald-500 hover:bg-emerald-950 w-full sm:w-auto"
           >
             Stop All Agents
           </Button>

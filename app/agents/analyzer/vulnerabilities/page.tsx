@@ -303,9 +303,9 @@ export default function VulnerabilitiesPage() {
 
                 <div className="mt-8">
                   <h3 className="text-lg font-medium text-emerald-400 mb-4">Connect Additional Knowledge Bases</h3>
-                  <div className="flex items-center">
-                    <Input placeholder="Enter knowledge base URL" className="bg-gray-800 border-gray-700 mr-2" />
-                    <Button className="bg-emerald-600 hover:bg-emerald-700">Connect</Button>
+                  <div className="flex flex-col sm:flex-row items-start sm:items-center">
+                    <Input placeholder="Enter knowledge base URL" className="bg-gray-800 border-gray-700 mb-2 sm:mb-0 sm:mr-2 w-full sm:w-auto" />
+                    <Button className="bg-emerald-600 hover:bg-emerald-700 w-full sm:w-auto">Connect</Button>
                   </div>
                 </div>
               </CardContent>

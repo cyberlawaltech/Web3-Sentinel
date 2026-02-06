@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
 import { PenToolIcon as Tool, Wrench, CheckCircle, Clock, BarChart } from "lucide-react"
 import Link from "next/link"
+import { InsightChart } from "@/components/dashboard/insight-chart"
 
 export default function ToolsmithDashboardPage() {
   return (
@@ -137,11 +138,16 @@ export default function ToolsmithDashboardPage() {
               <CardTitle className="text-lg text-emerald-400">Tool Categories</CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="flex items-center justify-center h-48">
-                <div className="text-center text-gray-500">
-                  <BarChart className="h-12 w-12 mx-auto mb-2 text-gray-400" />
-                  <p>Chart visualization would appear here</p>
-                </div>
+              <div className="h-40 sm:h-48">
+                <InsightChart
+                  data={[
+                    { name: "Static", value: 35, color: "#10B981" },
+                    { name: "Fuzzers", value: 25, color: "#3B82F6" },
+                    { name: "Monitoring", value: 20, color: "#F59E0B" },
+                    { name: "Other", value: 20, color: "#A78BFA" },
+                  ]}
+                  height={160}
+                />
               </div>
               <div className="space-y-2 mt-4">
                 <div className="flex justify-between items-center">
