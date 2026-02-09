@@ -1,6 +1,6 @@
-This README uses a combination of Markdown, HTML wrappers, and Shields.io badges to emulate high-contrast borders and background effects within the GitHub environment.
 
-<p align="center">🛡️ WEB3-SENTINEL 🛡️</p>
+
+<p align="center"><h1>🛡️ WEB3-SENTINEL 🛡️</h1></p>
 <p align="center">
 <img src="https://img.shields.io/badge/SECURITY-COMMAND_CENTER-blueviolet?style=for-the-badge&logo=fortinet&logoColor=white" />
 <img src="https://img.shields.io/badge/AI-MULTI--AGENT_SYSTEM-00ff00?style=for-the-badge&logo=openai&logoColor=black" />
