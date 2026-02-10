@@ -21,10 +21,10 @@ The following table showcases the high-fidelity UI of the Web3 Security Multi-Ag
 <!-- ROW 1: MOBILE APP SCREENSHOTS -->
 <tr style="border-bottom: 2px solid #38B2AC;">
 <td style="padding: 10px; width: 33%;">
-<img src="IMAGE_1_PATH" alt="Web3 Security Hero" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
+<img src="main.jph" alt="Web3 Security Hero" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 <td style="padding: 10px; width: 33%;">
-<img src="IMAGE_2_PATH" alt="Agent Capabilities" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
+<img src="options.jpg" alt="Agent Capabilities" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 <td style="padding: 10px; width: 33%;">
 <img src="hollogram.jpg" alt="Temika AI Assistant" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
