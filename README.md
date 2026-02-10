@@ -39,7 +39,7 @@ The following table showcases the high-fidelity UI of the Web3 Security Multi-Ag
 <i>(Add Description for Agent Capability Here)</i>
 </td>
 <td style="padding: 15px; vertical-align: top; color: #E2E8F0;">
-<i>(Add Description for Temika AI Chat Here)</i>
+<i>Temika AI hologram NLP Copilot</i>
 </td>
 </tr>
 </table>
