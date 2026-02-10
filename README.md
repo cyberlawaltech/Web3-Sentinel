@@ -27,7 +27,7 @@ The following table showcases the high-fidelity UI of the Web3 Security Multi-Ag
 <img src="options.jpg" alt="Agent Capabilities" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 <td style="padding: 10px; width: 33%;">
-<img src="hollogram.jpg" alt="Temika AI Assistant" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
+<img src="Hollogram.jpg" alt="Temika AI Assistant" style="border-radius: 10px; border: 1px solid #00F2FF; width: 90%;">
 </td>
 </tr>
 <!-- ROW 2: PADDED DESCRIPTION SPACE -->
