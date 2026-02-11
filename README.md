@@ -70,28 +70,7 @@ This README uses a combination of Markdown, HTML wrappers, and Shields.io badges
 <table width="100%">
 <tr>
 <td bgcolor="#0d1117">
-<h3>📜 Application Description</h3>
-<p><b>Web3-Sentinel</b> is a specialized Next.js-based security orchestration platform. It utilizes a <b>Multi-Agent System (MAS)</b> to automate the detection, analysis, and mitigation of smart contract vulnerabilities and DeFi exploits in real-time. By coordinating 8 autonomous AI agents, it bridges the gap between threat intelligence and active defense.</p>
-</td>
-</tr>
-</table>
-This README uses a combination of Markdown, HTML wrappers, and Shields.io badges to emulate high-contrast borders and background effects within the GitHub environment.
-
-<p align="center">🛡️ WEB3-SENTINEL 🛡️</p>
-<p align="center">
-<img src="https://img.shields.io/badge/SECURITY-COMMAND_CENTER-blueviolet?style=for-the-badge&logo=fortinet&logoColor=white" />
-<img src="https://img.shields.io/badge/AI-MULTI--AGENT_SYSTEM-00ff00?style=for-the-badge&logo=openai&logoColor=black" />
-<img src="https://img.shields.io/badge/STATUS-V2.0_BETA-red?style=for-the-badge" />
-</p>
-
-<table width="100%">
-<tr>
-<td bgcolor="#0d1117">
-<h3>📜 Application Description</h3>
-<p><b>Web3-Sentinel</b> is a specialized Next.js-based security orchestration platform. It utilizes a <b>Multi-Agent System (MAS)</b> to automate the detection, analysis, and mitigation of smart contract vulnerabilities and DeFi exploits in real-time. By coordinating 8 autonomous AI agents, it bridges the gap between threat intelligence and active defense.</p>
-</td>
-</tr>
-</table>
+README uses a combination of Markdown, HTML wrappers, and Shields.io badges to emulate
 
 🛠️ Technical Specifications
 <table width="100%">
